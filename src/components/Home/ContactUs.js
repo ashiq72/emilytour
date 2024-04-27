@@ -16,14 +16,14 @@ const ContactUs = () => {
       </h1>
 
       <div className="d-flex align-items-center justify-content-around">
-        <div className="d-flex flex-column">
+        {/* <div className="d-flex flex-column">
           <p style={{ color: "#FFFFFF", fontSize: 20 }}>
             &#9743; +84 93 439 91 75
           </p>
           <p style={{ color: "#FFFFFF", fontSize: 20 }}>
             &#9993; admin@emilytour.com
           </p>
-        </div>
+        </div> */}
 
         <Form style={{ width: 400 }}>
           <Form.Group className="mb-3">
@@ -36,7 +36,7 @@ const ContactUs = () => {
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label className="text-white">Message</Form.Label>
-            <FloatingLabel label="Type your message here...">
+            <FloatingLabel label="Message here...">
               <Form.Control
                 as="textarea"
                 placeholder="Type your message here..."

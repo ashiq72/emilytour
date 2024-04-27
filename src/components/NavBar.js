@@ -9,7 +9,7 @@ import logo from "../assets/favicon.png";
 class NavBar extends Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="/" onClick={() => window.scrollTo(0, 0)}>
             <img

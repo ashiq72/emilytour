@@ -5,7 +5,7 @@ const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 920px)");
+    const mediaQuery = window.matchMedia("(max-width: auto)");
 
     setIsMobile(mediaQuery.matches);
 
@@ -35,7 +35,7 @@ const Hero = () => {
       className="d-flex vh-100 align-items-center justify-content-center"
       style={{ backgroundColor: "#040825" }}
     >
-      <p style={{ marginLeft: isMobile ? "5%" : "15%" }}>
+      <p>
         <h1
           style={{ color: "#FFFFFF", fontSize: 70, marginTop: -20, width: 400 }}
         >

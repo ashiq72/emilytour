@@ -22,14 +22,14 @@ function Foter() {
             <li>Privacy Policy</li>
           </ul>
         </div>
-        <div className="other-links">
+        {/* <div className="other-links">
           <h3>Other Links</h3>
           <ul>
             <li>Blog</li>
             <li>FAQ</li>
             <li>Careers</li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <p className="text-center">&copy; 2024 EmilyTour. All Rights Reserved.</p>
     </footer>
