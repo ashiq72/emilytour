@@ -9,7 +9,7 @@ const ContactUs = () => {
       style={{
         backgroundColor: "#040825",
         padding: "20%",
-        paddingTop: "190px",
+        paddingTop: "390px",
         marginTop: -100,
       }}
     >

@@ -24,7 +24,7 @@ const Hero = () => {
     para: {
       width: 350,
       margin: 0,
-      padding: "10px 14px",
+      padding: "10px 24px",
       fontFamily: "Arial",
       color: "#FFFFFF",
     },
@@ -39,10 +39,10 @@ const Hero = () => {
         <h1
           style={{
             color: "#FFFFFF",
-            fontSize: 70,
+            fontSize: 30,
             marginTop: -20,
             width: 400,
-            padding: "0 14px",
+            padding: "0 24px",
           }}
         >
           Welcome to{" "}
@@ -52,7 +52,7 @@ const Hero = () => {
             color: "#3B56B7",
             fontSize: 70,
             marginTop: -20,
-            padding: "0 14px",
+            padding: "0 24px",
           }}
         >
           EmilyTour
