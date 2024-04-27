@@ -24,7 +24,7 @@ const Hero = () => {
     para: {
       width: 350,
       margin: 0,
-      padding: "10px",
+      padding: "10px 14px",
       fontFamily: "Arial",
       color: "#FFFFFF",
     },
@@ -35,13 +35,26 @@ const Hero = () => {
       className="d-flex vh-100 align-items-center justify-content-center"
       style={{ backgroundColor: "#040825" }}
     >
-      <p>
+      <p style={{ padding: "0 14px" }}>
         <h1
-          style={{ color: "#FFFFFF", fontSize: 70, marginTop: -20, width: 400 }}
+          style={{
+            color: "#FFFFFF",
+            fontSize: 70,
+            marginTop: -20,
+            width: 400,
+            padding: "0 14px",
+          }}
         >
           Welcome to{" "}
         </h1>
-        <h1 style={{ color: "#3B56B7", fontSize: 70, marginTop: -20 }}>
+        <h1
+          style={{
+            color: "#3B56B7",
+            fontSize: 70,
+            marginTop: -20,
+            padding: "0 14px",
+          }}
+        >
           EmilyTour
         </h1>
         <p style={styles.para}>
