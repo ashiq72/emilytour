@@ -24,7 +24,7 @@ const Hero = () => {
     para: {
       width: 350,
       margin: 0,
-      padding: "10px 24px",
+      padding: "10px 10px",
       fontFamily: "Arial",
       color: "#FFFFFF",
     },
@@ -35,14 +35,14 @@ const Hero = () => {
       className="d-flex vh-100 align-items-center justify-content-center"
       style={{ backgroundColor: "#040825" }}
     >
-      <p style={{ padding: "0 14px" }}>
+      <p style={{ padding: "0 6px" }}>
         <h1
           style={{
             color: "#FFFFFF",
             fontSize: 30,
             marginTop: -20,
-            width: 400,
-            padding: "0 24px",
+
+            padding: "0 6px",
           }}
         >
           Welcome to{" "}
@@ -52,7 +52,7 @@ const Hero = () => {
             color: "#3B56B7",
             fontSize: 70,
             marginTop: -20,
-            padding: "0 24px",
+            padding: "0 6px",
           }}
         >
           EmilyTour
@@ -63,7 +63,7 @@ const Hero = () => {
           tours and curated travel guides.
         </p>
       </p>
-      <EarthCanvas />
+      {/* <EarthCanvas /> */}
     </section>
   );
 };
