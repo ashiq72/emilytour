@@ -13,7 +13,7 @@ const TestimonialCard = (props) => {
       <Card
         style={{
           background: "linear-gradient(#2B3770 55%, #000000)",
-          width: "310px",
+          width: "270px",
           height: 250,
           padding: "10px",
           paddingTop: "15px",

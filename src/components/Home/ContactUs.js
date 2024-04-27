@@ -6,7 +6,12 @@ const ContactUs = () => {
   return (
     <section
       className="d-flex flex-column vh-100  justify-content-center"
-      style={{ backgroundColor: "#040825", padding: "20%", marginTop: -100 }}
+      style={{
+        backgroundColor: "#040825",
+        padding: "20%",
+        paddingTop: "190px",
+        marginTop: -100,
+      }}
     >
       <p className="text-white" style={{ marginLeft: 30, fontSize: 15 }}>
         GET IN TOUCH
