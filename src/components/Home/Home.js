@@ -7,11 +7,12 @@ import ContactUs from "./ContactUs";
 const Home = () => {
   return (
     <>
-      <Hero />
+      {/* <Hero />
       <Explore />
       <MostVisited />
       <Testimonials />
-      <ContactUs />
+      <ContactUs /> */}
+      <Testimonials />
     </>
   );
 };
