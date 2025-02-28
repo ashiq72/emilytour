@@ -29,7 +29,7 @@ const Testimonials = () => {
     //     </div>
     // </section>
     <div className="d-flex vh-100 align-items-center justify-content-center fs-1">
-      What you think about me, one line e oita likhe den dekhi Task aita😂😂
+      What you think about me?
     </div>
   );
 };
