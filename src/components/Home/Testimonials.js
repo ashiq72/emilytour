@@ -29,7 +29,7 @@ const Testimonials = () => {
     //     </div>
     // </section>
     <div className="d-flex vh-100 align-items-center justify-content-center fs-1">
-      Nipu’s secret recipe? Even he doesn’t know! 🤣🍲
+      What you think about me, one line e oita likhe den dekhi Task aita😂😂
     </div>
   );
 };
