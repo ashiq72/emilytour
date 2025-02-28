@@ -11,7 +11,7 @@ import Cultures from "./components/Cultures";
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/japan" element={<Japan />}></Route>
@@ -20,7 +20,8 @@ function App() {
         <Route path="/cuisines" element={<Cuisines />}></Route>
         <Route path="/cultures" element={<Cultures />}></Route>
       </Routes>
-      <Footer />
+      <Footer /> */}
+      <div>Nipu’s secret recipe? Even he doesn’t know! 🤣🍲</div>
     </>
   );
 }
