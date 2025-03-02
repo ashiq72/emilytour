@@ -1,12 +1,3 @@
-# TripVerse
-
-A virtual tourism website, 'TripVerse,' that allows users to experience different cultures and have the fun of exploring from the comfort of their homes. It features dedicated pages for countries, providing a comprehensive look into each destination. Users can delve into culinary, ceremonial, and various other facets, making their virtual travel experience both informative and enjoyable.
-
-
-## Demo
-
-https://tripverse.netlify.app/
-
 ## Tech Stack
 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="45" height="45" alt="React" /></a>
