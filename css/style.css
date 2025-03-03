@@ -279,14 +279,16 @@ header .container .toggle-btn.active span:nth-child(2) {
   line-height: 1.1;
 }
 .home .container .content .left .name {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .home .container .content .left .name .nameColor {
   color: #00c0ff;
+  font-size: 4rem;
 }
 
 .home .container .content .left h3 span {
   color: var(--blueColor);
+  font-size: 4rem;
 }
 
 .home .container .content .left p {
